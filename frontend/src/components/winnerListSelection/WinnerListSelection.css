@@ -1,0 +1,70 @@
+.winner-list__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid var(--lightGrey);
+    margin-bottom: 20px;
+}
+
+.winner-list__header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%;
+    background-color: var(--blueLight);
+}
+
+.winner-list__title{
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.winner-list__checkbox{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner-list__checkbox input{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.winner-list__body__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.winner-item__container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.winner-item__single{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border: .5px solid var(--lightGrey);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.winner-item__title{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border: .5px solid var(--lightGrey);
+    font-size: 1.2rem;
+    font-weight: 400;
+}

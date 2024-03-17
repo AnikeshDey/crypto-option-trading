@@ -1,0 +1,139 @@
+.contest__container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--lightGrey);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contest__container__title{
+    padding: 2%;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--lightGrey);
+    position: relative;
+}
+
+.contest__container__status{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    text-transform: capitalize;
+    color: #fbfbfb;
+    padding: 5px 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+
+.contest__container__status.active{
+    background-color: var(--green);
+}
+.contest__container__status.ended{
+    background-color: var(--red);
+}
+.contest__container__status.cancelled{
+    background-color: rgb(165, 11, 11);
+}
+
+.contest__container__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 2%;
+}
+
+.contest__container__prize, .contest__container__fee{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contest__container__prize{
+    align-items: flex-start;
+}
+
+
+.contest__container__prize__title, .contest__container__fee__title{
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.contest__container__prize__value, .contest__container__fee__value{
+    font-size: 1.5rem;
+}
+
+.contest__container__prize__current{
+    font-size: 1rem;
+}
+
+.contest__container__fee{
+    align-items: flex-end;
+}
+
+
+.contest__container__fee__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: var(--blue);
+    color: var(--black);
+    letter-spacing: 1px;
+    transition: .2s ease-out all;
+    margin-bottom: 5px;
+}
+
+.contest__container__fee__btn:disabled{
+    background-color: var(--blueLight);
+    pointer-events: none;
+}
+
+.contest__container__fee__btn.red{
+    background-color: var(--red);
+    color: #ffffff !important;
+}
+.contest__container__fee__btn.red:hover{
+    background-color:  rgb(170, 34, 6);
+}
+
+.contest__container__fee__btn i{
+    margin-left: 7px;
+}
+
+.contest__container__fee__btn:hover{
+    background-color: var(--deepBlue);
+}
+
+/* .contest__container__fee__btn:hover i{
+    margin-left: 10px;
+} */
+
+.contest__container__body{
+    display: flex;
+    
+}
+
+.contest__container__body__item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--lightGrey);
+    padding: 1%;
+}
+
+.contest__container__body__item h2{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.contest__container__body__item h3{
+    font-size: 1rem;
+}

@@ -1,0 +1,52 @@
+# Frontend Node.js dependencies
+frontend/node_modules/
+
+# Backend Node.js dependencies
+backend/node_modules/
+
+# Server Node.js dependencies
+server/node_modules/
+
+# Frontend Environment variables
+frontend/.env
+
+# Backend Environment variables
+backend/.env
+
+# Server Environment variables
+server/.env
+
+# Frontend Build files
+frontend/build/
+frontend/dist/
+
+# Backend Build files
+backend/build/
+backend/dist/
+
+# Server Build files
+server/build/
+server/dist/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Frontend Dependency lock files
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Backend Dependency lock files
+backend/package-lock.json
+backend/yarn.lock
+
+# Server Dependency lock files
+server/package-lock.json
+server/yarn.lock

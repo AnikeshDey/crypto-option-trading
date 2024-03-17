@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+	.sportContentContainer__btn-time{
+        font-size: .8rem;
+    }
+
+    .sportContentContainer__btn-container{
+        flex-basis: 40%;
+    }
+	/* .titleContainer .searchBarContainer{
+		flex-basis:87%;
+		justify-content:center;
+	}
+
+	.titleContainer .logo svg{
+		width:90%;
+	} */
+  
+
+}

@@ -1,0 +1,176 @@
+.crypto__quiz__container{
+    width:100%;
+    position:relative;
+}
+
+.crypto__quiz__wrapper{
+    width: 50%;
+    float: left;
+}
+
+.crypto__slip__container{
+    position: absolute;
+    width:100%;
+    left: 0;
+    z-index: 10;
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 0.2);
+}
+
+.crypto__quiz__item{
+    padding:2%;
+    width: 100%;
+    border-bottom: 1px solid var(--lightGrey);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.crypto__quiz__item.title{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid var(--lightGrey);
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: var(--lightGrey);
+    box-shadow: 0 2px 2px rgb(0 0 0 / 0.2);
+}
+
+.crypto__quiz__item.title:hover{
+    background-color: var(--lightGrey);
+}
+
+
+.crypto__quiz__item.up{
+    color:var(--green);
+    border-right: 1px solid var(--lightGrey);
+}
+
+.crypto__quiz__item.down{
+    color:var(--red);
+}
+
+.crypto__quiz__item.selected{
+    background-color: var(--blue);
+    color: #ffffff;   
+}
+
+.crypto__quiz__item.selected:hover, .crypto__quiz__item.selected *{
+    background-color: var(--blue);
+    color: #ffffff;   
+}
+
+.crypto__quiz__item:hover{
+    background-color: var(--blueBackground)
+}
+
+.crypto__quiz__item__flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.crypto__quiz__item__up, .crypto__quiz__item__down{
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+    font-size: 1rem;
+}
+
+.crypto__quiz__item__up{
+    color: var(--green);
+}
+
+.crypto__quiz__item__down{
+    color: var(--red);
+}
+
+.crypto__quiz__item__wrapper{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.crypto__quiz__form__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 2%;
+    background-color: var(--lightGrey) !important;
+    border-bottom: 1px solid var(--lightGrey) !important;
+    
+}
+
+.crypto__quiz__input__container,.crypto__quiz__btn__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--lightGrey) !important;
+}
+
+.crypto__quiz__input__btn{
+    background-color: var(--blue) !important;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.crypto__quiz__input{
+    border: 1px solid var(--greyText) !important;
+    background-color: #ffffff !important;
+    color:#000 !important;
+    padding: 1.5%;
+    border-radius: 3px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.crypto__quiz__input::-webkit-outer-spin-button,
+.crypto__quiz__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.crypto__quiz__input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.crypto__quiz__input__container{
+    flex-basis: 45%;
+}
+
+.crypto__quiz__btn__container{
+    flex-basis: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crypto__quiz__form__footer{
+    background-color: var(--lightGrey) !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 0 0;
+    font-weight: 400;
+}
+
+.crypto__quiz__form__footer p{
+    background-color: var(--lightGrey) !important;
+    color:#000 !important;
+    font-size: 1.1rem;
+}
+
+.crypto__quiz__btn__container .btn.cancel{
+    background-color: var(--red);
+}
+

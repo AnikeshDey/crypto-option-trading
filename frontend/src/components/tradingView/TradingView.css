@@ -1,0 +1,10 @@
+/* #myContainer{
+    width: 100% !important;
+    height: 40vh !important;
+}
+
+.tradingview-widget-container, .tradingview-widget-container__widget{
+    height: fit-content !important;
+    width: fit-content !important;
+}
+ */
